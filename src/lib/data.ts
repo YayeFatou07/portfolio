@@ -1,120 +1,137 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Yaye Fatou Kane",
+  location: "Keur Massar, Dakar",
+  email: "Kaneyafatou20@gmail.com",
+  github: "https://github.com/YayeFatou07",
+  linkedin: "https://www.linkedin.com/in/yaye-fatou-kane-9a19381b8/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "Arsa Properties-CMISTECH", 
+    location: "Hann Mariste , Cité Marine , Dakar",
+    position: "Développeuse FullStack & Product Owner",
+    period: "Mai 2025 - Present",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Prioriser les fonctionnalités ",
+      "Travailler avec les parties prenantes (clients, utilisateurs, équipe métier).",
+      "Développer des fonctionnalités de l'application web",
+      "Gérer le backlog et les sprints.",
+     
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "Arsa Properties - CMISTECH",
+    location: "Hann Mariste , Cité Marine , Dakar",
+    position: "Stagiaire Développeuse FullStack",
+    period: "Avr 2025 - Mai 2025",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Rédaction de cahier de charge pour la création d'une application télémédecine nommée DigitalHealth",
+      "Conception des diagrammes UML pour le projet DigitalHealth, y compris les diagrammes de cas d'utilisation, de séquence et de classe.",
+      "Design web avec Figma pour l'application DigitalHealth, en créant des maquettes et des prototypes interactifs.",
+      "Développer des composants frontend responsives en utilisant Angular, améliorant ainsi l'expérience utilisateur et les performances de l'application.",
+      "Optimiser des solutions JavaScript pour améliorer les temps de chargement et l'efficacité de récupération des données",
+     
     ],
   },
-  {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
-    achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
-    ],
-  },
+ 
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
+    institution: "Simplon Senegal",
+    location: "Sacré-Coeur, Dakar",
+    degree: "Certification en internet industriel des objets",
+    period: "Juillet 2024 - à nos jours",
     achievements: [
-      "President of the Department of Information Technology",
+      "Licence validée avec mention assez bien",
       "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+     
     ],
   },
+  {
+    institution: "Université Iba Der Thiam de Thies",
+    location: "Thies",
+    degree: "Licence en Informatique",
+    period: "Mars 2021 - Juin 2024",
+    achievements: [
+      "Licence validée avec mention assez bien",
+      "G20 student delegate",
+     
+    ],
+  },
+
 ];
 export const skills = {
   programmingLanguages: [
     "TypeScript",
     "JavaScript",
     "Python",
-    "C++",
-    "Java",
-    "Solidity",
   ],
   frontendDevelopment: [
-    "Nextjs",
+    "Angular",
     "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
+    "BootStrap",
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
+  backendDevelopment: ["Nodejs", "Expressjs", "Laravel"],
+  databaseAndStorage: ["MySQL", "MongoDB"],
+  cloudAndDevOps: ["Render", "Firebase","Vercel"],
   toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+    "Trello",
+    "Figma",
+    "Postman",
+    "Git",
+    "GitHub",
+    "Draw io",
+    "Arduino",
+    "Vscode",
   ],
 };
-
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "Système d'Arrosage Intelligent pour Pépinière",
+    github: "https://github.com/ndiawar/kerelBackendIot", // À remplacer
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+      "Interface web pour contrôler un système d'arrosage automatisé avec authentification par carte/code.",
+      "Fonctionnalités : arrosage manuel, programmation automatique basée sur paramètres des plantes.",
+      "Monitoring en temps réel de l'humidité du sol et de la luminosité avec historique.",
+      "Technologies : Raspberry Pi, capteurs, Python,RFID, base de données relationnelle/non-relationnelle."
     ],
   },
   {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
+    title: "Système de Pointage Électronique",
+    github: "https://github.com/KingOuze/Sunu-Pointage", // À remplacer
     description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      "Solution web pour gérer le pointage via badge RFID avec ouverture automatique de porte.",
+      "Fonctionnalités : historique des présences/absences, gestion des cohortes (apprenants) et départements (employés).",
+      "Alertes visuelles (LED) et sonores (buzzer) selon le statut du badge.",
+      "Import/export de données via CSV et gestion des exceptions (congés, maladies)."
     ],
   },
+  {
+    title: "Contrôle Environnemental pour Magasin YAKAR",
+    github: "https://github.com/LivayEtienne/projet_yakar", // À remplacer
+    description: [
+      "Monitoring de température/humidité avec seuils d'alerte (27°C) et ventilation automatique.",
+      "Collecte programmée des données (3x/jour) avec affichage sur LCD/interface web.",
+      "Interface visuelle dynamique : changement d'images selon l'humidité.",
+      "Contrôle manuel possible via télécommande ou interface web."
+    ],
+  },
+  {
+    title: "Jokko Health - Surveillance Médicale IoT",
+    github: "https://github.com/ndiawar/JokkoHealthFrontEnd", // À remplacer
+    description: [
+      "Plateforme IoT pour surveiller les patients vulnérables (personnes âgées, à mobilité réduite) via un bracelet connecté.",
+      "Capteurs biométriques : rythme cardiaque (MAX30102), température, détection de chutes (accéléromètre/gyroscope).",
+      "Alertes automatiques aux médecins en cas d'anomalie avec tableau de bord temps réel (WebSockets).",
+      "Fonctionnalités avancées : téléconsultation, prescriptions électroniques, gestion de rendez-vous.",
+      "Technologies : ESP32, React.js/Node.js, MongoDB. Perspectives : intégration future de robots de téléprésence."
+    ],
+  }
 ];
-
 export const awards = [
   {
     name: "IEEE YESIST12 Hackathon",
