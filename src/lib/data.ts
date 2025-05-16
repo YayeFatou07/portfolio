@@ -43,11 +43,7 @@ export const education = [
     location: "Sacré-Coeur, Dakar",
     degree: "Certification en internet industriel des objets",
     period: "Juillet 2024 - à nos jours",
-    achievements: [
-      "Licence validée avec mention assez bien",
-      "G20 student delegate",
-     
-    ],
+    
   },
   {
     institution: "Université Iba Der Thiam de Thies",
@@ -56,7 +52,7 @@ export const education = [
     period: "Mars 2021 - Juin 2024",
     achievements: [
       "Licence validée avec mention assez bien",
-      "G20 student delegate",
+      
      
     ],
   },
